@@ -1,0 +1,25 @@
+{
+  "name": "nodechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenanAljaber/demo-chat.git"
+  },
+  "author": "kenan aljaber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenanAljaber/demo-chat/issues"
+  },
+  "homepage": "https://github.com/KenanAljaber/demo-chat#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}
