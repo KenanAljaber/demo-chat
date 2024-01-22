@@ -5,8 +5,7 @@ const app = http.createServer();
 const server = http.createServer(app);
 const io = socketio(server, {
     cors: {
-        origin: 'http://localhost:10000',  // Update this with your actual frontend URL
-        methods: ['GET', 'POST']
+        origin: '*'
     }
 });
 
