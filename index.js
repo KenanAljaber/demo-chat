@@ -45,8 +45,10 @@ io.on('connection', (socket) => {
     activeSockets[socket.id] = socket;
 });
 
-server.listen(4500, () => {
-    console.log('listening on *:4500');
+const port = process.env.PORT || 4500;
+
+server.listen(port, () => {
+    console.log('listening on *:'+port);
 });
 
 // Handle server shutdown gracefully
